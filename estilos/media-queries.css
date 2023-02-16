@@ -38,6 +38,17 @@ Telas Grandes: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    div#formulario > p {
+        font-size: 1em;
+    }
+
+    .material-icons {
+        position: relative;
+        top: 50%;
+        left: 3%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -67,4 +78,12 @@ Telas Grandes: acima de 1200px
     div#formulario > p {
         font-size: 1.2em;
     }
+
+    .material-icons {
+        position: relative;
+        top: 50%;
+        left: 3%;
+        transform: translate(-50%, -50%);
+    }
 }
+
