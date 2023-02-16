@@ -18,13 +18,13 @@
 
 body, html {
     background-color: var(--cor2);
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
 }
 
 main {
     position: relative;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
 }
 
