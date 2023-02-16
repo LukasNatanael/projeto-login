@@ -13,4 +13,10 @@ Telas Grandes: acima de 1200px
     section#login {
         width: 90vw;
     }
+    section#login > div#imagem {
+        float: left;
+    }
+    section#login > div#formulario {
+        float: right;
+    }
 }
