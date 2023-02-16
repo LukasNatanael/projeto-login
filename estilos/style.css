@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+:root {
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --cor0: #03045e;
+    --cor1: #0077b6;
+    --cor2: #00b4d8;
+    --cor3: #90e0ef;
+    --cor4: #caf0f8;
+}
