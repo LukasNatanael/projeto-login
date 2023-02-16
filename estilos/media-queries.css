@@ -9,14 +9,54 @@ Desktop: 992px à 1200px
 Telas Grandes: acima de 1200px
 */
 
+:root {
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --cor0: #03045e;
+    --cor1: #0077b6;
+    --cor2: #00b4d8;
+    --cor3: #90e0ef;
+    --cor4: #caf0f8;
+}
+
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    section#login {
-        width: 90vw;
+    body {
+        background-image: linear-gradient(to top, var(--cor2), var(--cor1));
     }
+    
+    section#login {
+        width: 80vw;
+    }
+
     section#login > div#imagem {
         float: left;
+        width: 30%;
+        height: 100%;
     }
+
     section#login > div#formulario {
         float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
     }
 }
