@@ -74,7 +74,7 @@ form > div.campo {
     height: 40px;
     border: 2px solid var(--cor3);
     border-radius: 8px;
-    margin: 5px 0px;
+    margin: 4px 0px;
 }
 
 div.campo > label {
@@ -85,7 +85,7 @@ div.campo > span {
     color: white;
     font-size: 2em;
     width: 40px;
-    padding: 5px;
+    padding: 6px;
 }
 
 div.campo > input {
